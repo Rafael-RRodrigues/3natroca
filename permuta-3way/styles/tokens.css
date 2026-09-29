@@ -1,0 +1,72 @@
+:root {
+  /* Taste-Skill & UI/UX Pro Max Design Tokens: Marketplace B2C de Alto Padrão */
+  /* Dial Configuration: DESIGN_VARIANCE: 7 | MOTION_INTENSITY: 6 | VISUAL_DENSITY: 4 */
+
+  /* Canvas & Superfícies */
+  --bg-canvas: #f8f9fa;
+  --bg-card: #ffffff;
+  --bg-subtle: #f1f3f5;
+  --bg-hover: #e9ecef;
+
+  /* Identidade do Marketplace B2C (Gabarito OLX: Roxo / Laranja / Verde) */
+  --primary-purple: #6e0ad6;
+  --primary-purple-hover: #5808ab;
+  --primary-purple-tint: #f5edfc;
+  --primary-purple-border: #e3ccfb;
+  --primary-purple-subtle: rgba(110, 10, 214, 0.08);
+
+  /* Cores de Ação & Confiança */
+  --accent-orange: #f97316;
+  --accent-orange-hover: #ea580c;
+  --accent-orange-tint: #fff7ed;
+  --accent-orange-border: #fed7aa;
+  --accent-orange-subtle: rgba(249, 115, 22, 0.08);
+
+  --trust-green: #16a34a;
+  --trust-green-dark: #15803d;
+  --trust-green-tint: #f0fdf4;
+  --trust-green-border: #bbf7d0;
+  --trust-green-subtle: rgba(22, 163, 74, 0.08);
+
+  /* Tipografia & Hierarquia de Contraste (WCAG AA Compliant: 4.5:1+) */
+  --text-headline: #111827;
+  --text-body: #374151;
+  --text-muted: #6b7280;
+  --text-light: #9ca3af;
+
+  /* Bordas Suaves e Delicadas */
+  --border-card: #e5e7eb;
+  --border-subtle: #f0f1f4;
+  --border-focus: #6e0ad6;
+
+  /* Tipografia Convidativa e Humana */
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", SFMono-Regular, Menlo, monospace;
+
+  /* Shape Consistency Lock & Double-Bezel Concentric Radii (High-End Visual Design) */
+  --radius-outer: 20px;
+  --radius-inner: 14px;
+  --radius-card: 16px;
+  --radius-input: 10px;
+  --radius-pill: 9999px;
+
+  /* Sombras Difusas e Naturais de E-commerce (Tinted Shadows) */
+  --shadow-sm: 0 1px 2px rgba(17, 24, 39, 0.05);
+  --shadow-card: 0 2px 8px -2px rgba(17, 24, 39, 0.06), 0 1px 4px -1px rgba(17, 24, 39, 0.04);
+  --shadow-card-hover: 0 12px 24px -4px rgba(17, 24, 39, 0.08), 0 4px 8px -2px rgba(17, 24, 39, 0.03);
+  --shadow-modal: 0 24px 48px -12px rgba(17, 24, 39, 0.25);
+  --shadow-purple-btn: 0 4px 14px rgba(110, 10, 214, 0.28);
+  --shadow-orange-btn: 0 4px 14px rgba(249, 115, 22, 0.28);
+
+  /* Curvas Cúbicas de Física Natural (Emil Kowalski Design Engineering) */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+
+  /* Transições com Propriedades Explícitas */
+  --transition-fast: 150ms var(--ease-out);
+  --transition-smooth: 240ms var(--ease-out);
+  --transition-button: transform 180ms var(--ease-out), background-color 150ms var(--ease-out), box-shadow 180ms var(--ease-out);
+  --transition-card: transform 220ms var(--ease-out), box-shadow 220ms var(--ease-out), border-color 180ms var(--ease-out);
+}
